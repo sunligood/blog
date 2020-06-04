@@ -62,7 +62,7 @@ function getEntries(globPath) {
   return entries;
 }
 
-const entries = getEntries('src/**/**/index.js')
+const entries = getEntries('src/page/**/index.js')
 
 function getIndexJs() {
   const indexJsList = [];

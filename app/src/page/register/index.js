@@ -5,7 +5,7 @@ import { Form, Row, Col, Input, Button } from 'antd';
 import "antd/dist/antd.css";
 import Header from '../../common/header/index'
 
-class Login extends Component {
+class Register extends Component {
   constructor() {
     super()
     this.state = {
@@ -62,7 +62,7 @@ class Login extends Component {
               </Col>
             </Row>
             <Form.Item>
-              <Button type="primary" htmlType="submit" style={{ width: '100%' }}>登录</Button>
+              <Button type="primary" htmlType="submit" style={{ width: '100%' }}>注册</Button>
             </Form.Item>
           </Form>
 
@@ -74,7 +74,7 @@ class Login extends Component {
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <Login />
+    <Register />
   </React.StrictMode>,
   document.getElementById('root')
 );
